@@ -1,1 +1,43 @@
+# macOS system files
 *.DS_Store
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw image data (ignore all jpg and png in data/raw)
+data/raw/**/*.jpg
+data/raw/**/*.png
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Pytest cache
+.pytest_cache/
