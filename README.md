@@ -14,39 +14,34 @@ The dataset contains ultrasound images of liver tissue, categorized into five fi
 3. Place the extracted folders 'F0', 'F1', F2', 'F3' into the `data/raw` directory so that the folder structure looks like this:
 
 Liver-Fibrosis-Stage-Classification/
-│
 ├── data/
-│   ├── raw/
-│   │   ├── F0/
-│   │   │   ├── image1.jpg
-│   │   │   └── ...
-│   │   ├── F1/
-│   │   │   └── ...
-│   │   ├── F2/
-│   │   │   └── ...
-│   │   └── F3/
-│   │       └── ...
-│   └── processed/
-│
+│ ├── raw/
+│ │ ├── F0/
+│ │ │ ├── image1.jpg
+│ │ │ └── ...
+│ │ ├── F1/
+│ │ │ └── ...
+│ │ ├── F2/
+│ │ │ └── ...
+│ │ └── F3/
+│ │ └── ...
+│ └── processed/
 ├── src/
-│   ├── dataloaders.py
-│   ├── models.py
-│   ├── train.py
-│   └── utils.py
-│
+│ ├── dataloaders.py
+│ ├── models.py
+│ ├── train.py
+│ └── utils.py
 ├── notebooks/
-│   ├── EDA.ipynb
-│   └── baseline_model.ipynb
-│
+│ ├── EDA.ipynb
+│ └── baseline_model.ipynb
 ├── results/
-│   ├── metrics/
-│   └── visualizations/
-│
+│ ├── metrics/
+│ └── visualizations/
 └── README.md
-
 
 ### Notes
 
 - The `data/raw` folder is **ignored by Git**, so you don’t need to worry about committing large image files.  
 - Only the folder structure and scripts are tracked; the actual images should be downloaded separately.
+
 
