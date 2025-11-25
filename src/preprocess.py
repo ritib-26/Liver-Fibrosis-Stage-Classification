@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 RAW_DIR = "data/raw"
 PROCESSED_DIR = "data/processed"
 TARGET_SIZE = (224, 224)
-CLASSES = ["F0", "F1", "F2", "F3"]
+CLASSES = ["F0", "F1", "F2", "F3", "F4"]
 
 def safe_mkdir(path):
     if not os.path.exists(path):
