@@ -41,3 +41,4 @@ dist/
 
 # Pytest cache
 .pytest_cache/
+*.keras
