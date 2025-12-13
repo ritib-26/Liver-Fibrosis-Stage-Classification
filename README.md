@@ -11,7 +11,7 @@ The dataset contains ultrasound images of liver tissue, categorized into five fi
 
 1. Download the dataset from https://www.kaggle.com/datasets/vibhingupta028/liver-histopathology-fibrosis-ultrasound-images.  
 2. Extract the downloaded files.  
-3. Place the extracted folders 'F0', 'F1', F2', 'F3' into the `data/raw` directory.
+3. Place the extracted folders 'F0', 'F1', F2', 'F3', 'F4' into the `data/raw` directory.
 
 ### Notes
 
